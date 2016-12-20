@@ -1,7 +1,7 @@
 remote:
   host: "macross.kk-box.com"
   user: "wusungpeng"
-  path: "~/workspace/wintermin"
+  path: "~/workspace/black"
 behaviour:
   uploadOnSave: true
   syncDownOnOpen: true

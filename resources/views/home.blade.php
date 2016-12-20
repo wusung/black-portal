@@ -524,7 +524,7 @@
             <div class="row">
                <div id="portlet-1" data-toggle="portlet" class="col-lg-4">
                   <!-- START panel-->
-                  <div id="panel-1" class="panel panel-green">
+                  <div id="panel-1" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">行事曆
                         <a href="#" data-perform="panel-collapse" data-toggle="tooltip" title="Collapse Panel" class="pull-right">
                            <em class="fa fa-minus"></em>
@@ -536,7 +536,7 @@
                   </div>
                   <!-- END panel-->
                   <!-- START panel-->
-                  <div id="panel-2" class="panel panel-primary">
+                  <div id="panel-2" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">其他申請
                         <a href="#" data-perform="panel-collapse" data-toggle="tooltip" title="Collapse Panel" class="pull-right">
                            <em class="fa fa-minus"></em>
@@ -558,7 +558,7 @@
                </div>
                <div id="portlet-2" data-toggle="portlet" class="col-lg-4">
                   <!-- START panel-->
-                  <div id="panel-6" class="panel panel-info">
+                  <div id="panel-6" class="panel panel-inverse">
                     <div class="panel-heading portlet-handler">公告</div>
                     <div class="panel-body">
                        @foreach ($announces as $announce)
@@ -574,7 +574,7 @@
                   </div>
                   <!-- END panel-->
                   <!-- START panel-->
-                  <div id="panel-7" class="panel panel-warning">
+                  <div id="panel-7" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">待簽核事項</div>
                      <div class="panel-body">
                         <table id="datatable1" class="table table-striped table-hover dataTable no-footer" role="grid" aria-describedby="datatable1_info">
@@ -605,7 +605,7 @@
                   </div>
                   <!-- END panel-->
                   <!-- START panel-->
-                  <div id="panel-8" class="panel panel-danger">
+                  <div id="panel-8" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">其他活動</div>
                      <div class="panel-body">
                         <ul class="about-links-item">
@@ -642,7 +642,7 @@
                   </div>
                   <!-- END panel-->
                   <!-- START panel-->
-                  <div id="panel-12" class="panel panel-purple">
+                  <div id="panel-12" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">辦公室資訊</div>
                      <div class="panel-body">
                         <ul class="about-links-item">
@@ -663,7 +663,7 @@
                   </div>
                   <!-- END panel-->
                   <!-- START panel-->
-                  <div id="panel-13" class="panel panel-green">
+                  <div id="panel-13" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">其他公司</div>
                      <div class="panel-body">
                        <ul class="nav nav-pills">
