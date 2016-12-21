@@ -543,15 +543,15 @@
                         </a>
                      </div>
                      <div class="panel-body">
+                        <ul class="about-links-item">
                         @foreach ($others as $other)
-                          <ul class="about-links-item">
                             <li>
                               <a href="#" title="{{ $other['title'] }}">
                                 {{ $other['title'] }}
                               </a>
                             </li>
-                          </ul>
                         @endforeach
+                        </ul>
                      </div>
                   </div>
                   <!-- END panel-->
@@ -561,15 +561,15 @@
                   <div id="panel-6" class="panel panel-inverse">
                     <div class="panel-heading portlet-handler">公告</div>
                     <div class="panel-body">
+                       <ul class="about-links-item">
                        @foreach ($announces as $announce)
-                         <ul class="about-links-item">
                            <li>
                              <a href="#" title="{{ $announce->announce_title }}">
                                {{ $announce->announce_title }}
                              </a>
                            </li>
-                         </ul>
                        @endforeach
+                       </ul>
                     </div>
                   </div>
                   <!-- END panel-->
@@ -629,15 +629,17 @@
                   <div id="panel-11" class="panel panel-inverse">
                      <div class="panel-heading portlet-handler">常用系統</div>
                      <div class="panel-body">
-                        @foreach ($sidebars as $sidebar)
                         <ul class="about-links-item">
+                        @foreach ($sidebars as $sidebar)
+
                           <li>
                             <a href="#" title="{{ $sidebar['title'] }}">
                               {{ $sidebar['title'] }}
                             </a>
                           </li>
-                        </ul>
+
                         @endforeach
+                        </ul>
                      </div>
                   </div>
                   <!-- END panel-->
